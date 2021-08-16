@@ -1,0 +1,6 @@
+obj/masternodeconfig.o: masternodeconfig.cpp masternodeconfig.h util.h \
+ uint256.h netbase.h serialize.h allocators.h version.h clientversion.h \
+ compat.h
+masternodeconfig.cpp masternodeconfig.h util.h :
+ uint256.h netbase.h serialize.h allocators.h version.h clientversion.h :
+ compat.h :
